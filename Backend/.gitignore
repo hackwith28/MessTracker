@@ -1,0 +1,51 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+build/
+.gradle/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files
+.env
+
+# Application secrets
+application-prod.properties
+application-secret.properties
+
+# Generated files
+out/
+
+# Java compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+
+# Spring Boot
+spring.log
+
+# Node modules (if frontend inside same repo)
+node_modules/
+
+# Mac/Linux temp
+*.swp
+*.swo
+
+# H2 Database
+*.mv.db
+*.trace.db
+
