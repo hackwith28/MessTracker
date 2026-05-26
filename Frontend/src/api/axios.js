@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
 
-  baseURL: "https://messtracker-2.onrender.com",
+  baseURL: "https://messtracker-2.onrender.com/api",
 
 });
 
