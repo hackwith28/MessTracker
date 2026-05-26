@@ -1,114 +1,104 @@
-🍽️ Mess Tracker
+# 🍽️ Mess Tracker
 
-A smart full-stack mess management system designed to reduce food wastage and optimize meal planning in colleges, hostels, and cafeterias. Students can confirm their meals in advance, while administrators get real-time analytics to estimate food preparation efficiently.
+Smart mess management system that helps colleges and hostels reduce food wastage by collecting students' meal responses in advance and providing real-time analytics to mess administrators.
 
-🌐 Live Demo: Mess Tracker Live App
+---
 
-📌 Overview
+## 🚀 Live Demo
 
-Traditional mess systems prepare food without knowing the exact number of students who will actually eat, leading to:
+🌐 https://mess-tracker.vercel.app/
 
-Food wastage
-Poor resource management
-Increased operational cost
-Long waiting times
+---
 
-Mess Tracker solves this problem through a real-time meal participation system where students can mark their attendance for meals beforehand.
+## ✨ Features
 
-✨ Features
-👨‍🎓 Student Portal
-Secure authentication system
-View daily meal menu
-Mark meal participation (Yes/No)
-Real-time response updates
-Simple and responsive UI
-Access from mobile and desktop
-👨‍🍳 Admin Portal
-Create and manage meals
-Open/close meal polls
-Monitor expected attendance
-Track live participation count
-Manage mess workflow efficiently
-📊 Analytics Dashboard
-Meal-wise participation statistics
-Real-time attendance visualization
-Data-driven food preparation
-Reduced food wastage through prediction
-🛠️ Tech Stack
-Frontend
-React.js
-Tailwind CSS
-Axios
-Recharts
-React Router DOM
-Backend
-Spring Boot
-Spring Security
-JWT Authentication
-REST APIs
-Maven
-Database
-MySQL
-DevOps & Deployment
-Docker
-Docker Compose
-Vercel
-Railway
-🐳 Docker Support
+### 👨‍🎓 Student Portal
+- Student authentication
+- View daily mess menu
+- Mark meal attendance (Yes/No)
+- Real-time response updates
+- Responsive UI for mobile and desktop
 
-The project is fully containerized using Docker for consistent development and deployment.
+### 👨‍🍳 Admin Portal
+- Create and manage meals
+- Open/close meal polls
+- View expected student count
+- Track participation analytics
+- Manage mess operations efficiently
 
-Run Using Docker
+### 📊 Analytics Dashboard
+- Meal participation statistics
+- Real-time attendance tracking
+- Better food quantity estimation
+- Reduced food wastage
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios
+- Recharts
+- React Router DOM
+
+### Backend
+- Spring Boot
+- Spring Security
+- JWT Authentication
+- REST APIs
+- Maven
+
+### Database
+- MySQL
+
+### DevOps & Deployment
+- Docker
+- Docker Compose
+- Vercel
+- Railway
+
+---
+
+# 🐳 Docker Support
+
+Run the complete application using Docker:
+
+```bash
 docker-compose up --build
-Dockerized Services
-React Frontend
-Spring Boot Backend
-MySQL Database
-Advantages
-Easy setup across machines
-Consistent environments
-Simplified deployment
-Faster development workflow
-🚀 Live Deployment
-Frontend
-
-Vercel Deployment
-
-Backend
-
-Hosted on Railway
-
-📷 Screenshots
-Home Page
-
-Add screenshot here
-
-Student Dashboard
-
-Add screenshot here
-
-Admin Dashboard
-
-Add screenshot here
-
-Analytics Section
-
-Add screenshot here
-
+📂 Project Structure
+mess-tracker/
+│
+├── Frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── services/
+│
+├── Backend/
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── entity/
+│   └── security/
+│
+├── docker-compose.yml
+└── README.md
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
 git clone https://github.com/your-username/mess-tracker.git
 cd mess-tracker
-🔹 Frontend Setup
-cd frontend
+2️⃣ Frontend Setup
+cd Frontend
 npm install
 npm run dev
 
 Frontend runs on:
 
 http://localhost:5173
-🔹 Backend Setup
-cd backend
+3️⃣ Backend Setup
+cd Backend
 ./mvnw spring-boot:run
 
 Backend runs on:
@@ -123,50 +113,35 @@ spring.datasource.username=YOUR_DATABASE_USERNAME
 spring.datasource.password=YOUR_DATABASE_PASSWORD
 
 jwt.secret=YOUR_SECRET_KEY
-📂 Project Structure
-mess-tracker/
-│
-├── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   └── services/
-│
-├── backend/
-│   ├── controller/
-│   ├── service/
-│   ├── repository/
-│   ├── entity/
-│   └── security/
-│
-├── docker-compose.yml
-└── README.md
-📈 Future Improvements
-QR-based mess entry system
-AI-based food demand prediction
-Push notifications for meals
-Meal feedback and rating system
-Mobile application
-Monthly analytics reports
-Role-based access control
+🎯 Problem It Solves
+
+Traditional mess systems prepare food without accurate attendance data, leading to:
+
+Food wastage
+Increased operational cost
+Poor resource management
+
+Mess Tracker solves this using real-time meal participation tracking.
+
 💡 Key Highlights
-Reduced food wastage through real-time participation tracking
-Built scalable full-stack architecture
-Containerized application using Docker
-Responsive UI optimized for all devices
-Secure authentication using JWT
-Real-time analytics dashboard for administrators
-🎯 Resume-Worthy Impact
-Developed a full-stack mess automation platform serving real-time meal participation workflows.
-Implemented JWT-based secure authentication and role-based access handling.
-Reduced unnecessary food preparation through predictive participation tracking.
-Dockerized the complete application for simplified deployment and scalability.
+Real-time meal participation system
+Reduced food wastage
+Secure JWT authentication
+Responsive full-stack application
+Dockerized deployment setup
+Analytics dashboard for admins
+📈 Future Improvements
+QR-based mess entry
+Push notifications
+AI-based food demand prediction
+Meal feedback system
+Mobile application
 🤝 Contributing
 
 Contributions are welcome.
 
 Fork the repository
-Create a new branch
+Create your branch
 Commit your changes
 Push the branch
 Open a Pull Request
