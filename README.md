@@ -255,9 +255,9 @@ cd Frontend
 vercel deploy
 ```
 
-### Deploy Backend on Railway
+### Deploy Backend on Render
 ```bash
-# Connect your GitHub repo to Railway
+# Connect your GitHub repo to Render
 # Auto-deploys on every push!
 ```
 
@@ -335,12 +335,6 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📞 Support & Contact
-
-- 📧 **Email**: support@messtracker.com
-- 💬 **Discord**: [Join our community](https://discord.gg/messtracker)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/your-username/mess-tracker/issues)
-- 💡 **Feature Requests**: [Discussions](https://github.com/your-username/mess-tracker/discussions)
 
 ---
 
